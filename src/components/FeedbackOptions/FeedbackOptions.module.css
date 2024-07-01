@@ -1,12 +1,28 @@
 .optionButton {
-  padding: 5px 10px;
+  padding: 20px 30px;
   background-color: white;
 
   border: 1px solid gray;
-  border-radius: 4px;
   cursor: pointer;
   text-transform: capitalize;
   margin-right: 10px;
+
+  background: #28282d;
+  color: #f0f0f0;
+  border-radius: 10px;
+
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionButton:hover {
+  color: white;
+  font-size: 14px;
 }
 
 .optionButton:active {
